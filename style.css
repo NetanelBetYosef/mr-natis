@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+  scroll-behavior: smooth;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  border-bottom: 1px solid white;
+}
+
+img:not(.icon, .whatsapp, .footer-img) {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid #864af9;
+  padding: 10px;
+}
+
+.header-section{
+  height: 25vh;
+}
+
+
+.main-title {
+  font-size: 50px;
+  padding: 30px;
+}
+
+.main-section {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.main-section-img-container img {
+  border: 2px solid #864af9;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+span,
+h4 {
+  color: #864af9;
+}
+
+a:hover {
+  color: #864af9;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-me {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.about-me-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #864af9;
+  padding: 10px;
+}
+
+.experience-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.list-items {
+  display: flex;
+  gap: 80px;
+}
+
+ul {
+  list-style: none;
+}
+
+.contact-me-section{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.whatsapp,
+.footer-img{
+  height: 150px;
+  width: 150px;
+  border: 2px solid #864af9;
+  padding: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.social-section {
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.icons-container {
+  display: flex;
+  gap: 30px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+footer{ 
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bar,
+.copyright {
+  color: #ff0060;
+}
+
+@media (max-width: 450px) {
+  img:not(.icon) {
+    height: 250px;
+    width: 250px;
+  }
+  .nav-bar {
+    flex-direction: column;
+  }
+}
