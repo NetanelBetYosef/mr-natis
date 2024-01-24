@@ -162,7 +162,7 @@ footer{
 }
 
 @media (max-width: 450px) {
-  img:not(.icon) {
+  img:not(.icon, .whatsapp, .footer-img) {
     height: 250px;
     width: 250px;
   }
